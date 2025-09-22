@@ -27,14 +27,10 @@ A curated collection of Sinhala literary texts and related resources with OCR ou
 - Provide lightweight, consistent metadata to enable downstream use.
 
 ### Contributing
-1. Add new works under `Books_PDF/<Work Name>.pdf` and `OCR_Final/<Work Name>/`.
-2. Include both `metadata.json` and a UTF-8 encoded `<Work Name>.txt`.
-3. Use existing `metadata.json` examples as a schema reference.
-4. Open a pull request describing the additions or edits.
+1. Literary works under `Books_PDF/<Work Name>.pdf` and `OCR_Final/<Work Name>/`.
+2. Includes both `metadata.json` and a UTF-8 encoded `<Work Name>.txt`.
 
 ### Notes
 - Filenames and directory names may include Sinhala characters.
 - `ocr_confidence` is a heuristic score from the OCR process and may vary by work.
 
-### License
-Unless otherwise noted, PDFs retain their original rights. OCR text and metadata contributions in this repository are provided under an open license consistent with source permissions. Verify rights before adding new materials.
