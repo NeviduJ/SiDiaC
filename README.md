@@ -34,3 +34,15 @@ A curated collection of Sinhala literary texts and related resources with OCR ou
 - Filenames and directory names may include Sinhala characters.
 - `ocr_confidence` is a heuristic score from the OCR process and may vary by work.
 
+### Citation
+
+@misc{jayatilleke2025sidiacsinhaladiachroniccorpus,
+      title={SiDiaC: Sinhala Diachronic Corpus}, 
+      author={Nevidu Jayatilleke and Nisansa de Silva},
+      year={2025},
+      eprint={2509.17912},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2509.17912}, 
+}
+
