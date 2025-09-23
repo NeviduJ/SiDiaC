@@ -36,6 +36,7 @@ A curated collection of Sinhala literary texts and related resources with OCR ou
 
 ### Citation
 
+```json
 @misc{jayatilleke2025sidiacsinhaladiachroniccorpus,
       title={SiDiaC: Sinhala Diachronic Corpus}, 
       author={Nevidu Jayatilleke and Nisansa de Silva},
@@ -45,4 +46,4 @@ A curated collection of Sinhala literary texts and related resources with OCR ou
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2509.17912}, 
 }
-
+```
