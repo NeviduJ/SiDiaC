@@ -37,13 +37,10 @@ A curated collection of Sinhala literary texts and related resources with OCR ou
 ### Citation
 
 ```json
-@misc{jayatilleke2025sidiacsinhaladiachroniccorpus,
-      title={SiDiaC: Sinhala Diachronic Corpus}, 
-      author={Nevidu Jayatilleke and Nisansa de Silva},
-      year={2025},
-      eprint={2509.17912},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2509.17912}, 
+@article{jayatilleke2025sidiac,
+  title={SiDiaC: Sinhala Diachronic Corpus},
+  author={Jayatilleke, Nevidu and de Silva, Nisansa},
+  journal={arXiv preprint arXiv:2509.17912},
+  year={2025}
 }
 ```
