@@ -2,6 +2,8 @@
 
 A curated collection of Sinhala literary texts and related resources with OCR outputs and basic metadata for each work. This repository organizes original PDFs alongside finalized OCR text and machine-readable `metadata.json` files per title.
 
+**Hugging Face Dataset:** [Nevidu/SiDiaC](https://huggingface.co/datasets/Nevidu/SiDiaC)
+
 ### Repository structure
 - `Books_PDF/`: Original source PDFs for each title.
 - `OCR_Final/`: Finalized OCR results per title, each directory containing:
@@ -33,6 +35,22 @@ A curated collection of Sinhala literary texts and related resources with OCR ou
 ### Notes
 - Filenames and directory names may include Sinhala characters.
 - `ocr_confidence` is a heuristic score from the OCR process and may vary by work.
+
+### Usage
+
+You can load this dataset using the `datasets` library:
+
+```python
+from datasets import load_dataset
+
+ds = load_dataset("Nevidu/SiDiaC", split="train")
+
+# Verify the number of rows
+print(f"Loaded dataset with {len(ds)} rows")
+
+# Print the first example
+print(ds[0])
+```
 
 ### Citation
 
